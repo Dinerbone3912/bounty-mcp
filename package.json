@@ -1,0 +1,11 @@
+{
+  "name": "@glider/bounty-mcp",
+  "version": "1.0.0",
+  "description": "MCP server exposing a curl-able bounty feed: search crypto-paying software bounties, filter by reward/source. Works with any MCP client. Zero deps.",
+  "type": "module",
+  "bin": { "bounty-mcp": "server.js" },
+  "files": ["server.js","lib.js","README.md"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["mcp","bounty","agents","x402","usdc"],
+  "license": "MIT"
+}
